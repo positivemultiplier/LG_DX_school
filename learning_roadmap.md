@@ -10,9 +10,9 @@ graph TD
 
     subgraph "📚 Phase 1: Foundation"
         F["<strong>기초 역량 강화</strong><br/>(01_Foundation)"]
-        F --> F1["- Python 프로그래밍"]
-        F --> F2["- 데이터 핸들링"]
-        F --> F3["- 기초 통계"]
+        F --> F1["💡 - Python 프로그래밍"]
+        F --> F2["💡 - 데이터 핸들링"]
+        F --> F3["💡 - 기초 통계"]
     end
 
     subgraph "🛠️ Phase 2: DX Methodology"
@@ -20,16 +20,16 @@ graph TD
         
         subgraph "1. Business Experience (BX)"
             B["<strong>[BX] 사업 방향 데이터로 이해</strong>"]
-            B --> B1["- 데이터 관리 및 전략 수립"]
-            B --> B2["- 데이터 수집 및 시각화"]
-            B --> P1("기본역량 프로젝트 (4일)")
+            B --> B1["💡- 데이터 관리 및 전략 수립"]
+            B --> B2["💡- 데이터 수집 및 시각화"]
+            B --> P1("💡 기본역량 프로젝트 (4일)")
         end
 
         subgraph "2. Customer Experience (CX)"
             C["<strong>[CX] 고객 경험 1순위</strong>"]
-            C --> C1["- 데이터 분석 및 기획"]
-            C --> C2["- 신규 가치 분석 및 설계"]
-            C --> P2("미니 프로젝트 (5일)")
+            C --> C1["💡 - 데이터 분석 및 기획"]
+            C --> C2["💡 - 신규 가치 분석 및 설계"]
+            C --> P2("💡 미니 프로젝트 (5일)")
         end
 
         DX --> B & C
